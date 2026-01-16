@@ -78,11 +78,12 @@ See [Android Developer](https://developer.android.com/studio/command-line/adb) f
 To use `adb` you first need to turn on USB debugging on your device, usually by following these steps:
 
 1. Open system Settings and go to About.
-2. Click "Build number" quickly for several times, you can see a message similar to "You are a developer".
-3. At this point, you should able to find "Developer Options" in Settings,  enable "USB Debugging".
-4. Connect the device to the computer and type `adb devices` in the terminal.
-5. At this time, the dialog "Allow debugging" will appear on the device, check "Always allow" and confirm.
-6. Enter `adb devices` again in the terminal. If there is no problem, you will see something like the following.
+2. Click "Build number" quickly for several times, you can
+3. see a message similar to "You are a developer".
+4. At this point, you should able to find "Developer Options" in Settings,  enable "USB Debugging".
+5. Connect the device to the computer and type `adb devices` in the terminal.
+6. At this time, the dialog "Allow debugging" will appear on the device, check "Always allow" and confirm.
+7. Enter `adb devices` again in the terminal. If there is no problem, you will see something like the following.
 
    ```
    List of devices attached
